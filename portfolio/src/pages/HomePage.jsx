@@ -1,0 +1,9 @@
+function HomePage() {
+    return(
+        <div className="home-page">
+            <h1>This is Home</h1>
+        </div>
+    )
+}
+
+export default HomePage
