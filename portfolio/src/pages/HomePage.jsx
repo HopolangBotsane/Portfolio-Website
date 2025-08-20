@@ -1,7 +1,17 @@
+import Header from "../components/Header"
+import Footer from "../components/Footer"
+import ProjectTile from "../components/ProjectTile"
+
 function HomePage() {
     return(
         <div className="home-page">
-            <h1>This is Home</h1>
+            <Header/>
+            {/* <div className="projects-display">
+                <ProjectTile/>
+                <ProjectTile/>
+                <ProjectTile projectName=""/>
+            </div> */}
+            <Footer/>
         </div>
     )
 }
