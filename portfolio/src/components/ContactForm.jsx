@@ -23,15 +23,26 @@ function ContactForm() {
   }
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+    <div className="form">
+        <h1 className="section-heading">Get In Touch</h1>
+        <div className="form-left">
+            <form ref={form} onSubmit={sendEmail}>
+                <label>From:</label>
+                <input className="user-email-input" type="email" placeholder="Enter email address" name="user_email" />
+                <label>Message</label>
+                <textarea className="user-text-input" name="message" placeholder="Enter message"/>
+                <input className="send-btn" type="submit" value="Send" />
+            </form>
+        </div>
+
+        <h1>OR</h1>
+
+        <div className="form-right">
+            <h1>WhatsApp</h1>
+            <p>000 000 0000</p>
+        </div>
+
+    </div>
   )
 }
 
