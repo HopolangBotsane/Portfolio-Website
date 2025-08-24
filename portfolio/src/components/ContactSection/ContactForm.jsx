@@ -1,7 +1,8 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-function ContactForm() {
+
+function ContactSection() {
 
     const form = useRef()
 
@@ -23,7 +24,7 @@ function ContactForm() {
   }
 
   return (
-    <div className="form">
+    <div className="contact-section">
         <h1 className="section-heading">Get In Touch</h1>
         <div className="form-left">
             <form ref={form} onSubmit={sendEmail}>
@@ -46,4 +47,4 @@ function ContactForm() {
   )
 }
 
-export default ContactForm
+export default ContactSection

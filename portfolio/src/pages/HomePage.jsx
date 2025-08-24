@@ -1,7 +1,7 @@
-import Header from "../components/Header"
+import Header from "../components/Header/Header"
 // import ProjectTile from "../components/ProjectTile"
-import ContactForm from "../components/ContactForm"
-import Footer from "../components/Footer"
+import Footer from "../components/Footer/Footer"
+import ContactSection from "../components/ContactSection/ContactForm"
 
 
 
@@ -10,7 +10,7 @@ function HomePage() {
         <div className="home-page">
             <Header/>
             <div className="body">
-                <ContactForm/>
+                <ContactSection/>
             </div>
             <Footer/>
         </div>
