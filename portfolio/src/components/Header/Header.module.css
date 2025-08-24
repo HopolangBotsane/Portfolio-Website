@@ -4,8 +4,8 @@
 }
 
 .contactBtn{
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #fff;
     padding: 0.5rem 1.5rem 0.5rem 1.5rem;
     cursor: pointer;
     text-decoration: none;
