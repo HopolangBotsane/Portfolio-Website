@@ -1,0 +1,9 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.year {
+    font-size: 0.875rem;
+    color: #fff;
+}

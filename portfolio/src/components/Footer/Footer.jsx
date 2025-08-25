@@ -1,18 +1,20 @@
 import { Link } from "react-router-dom"
 import styles from "./Footer.module.css"
+import Behance from "../../assets/Behance.svg"
+import Github from"../../assets/Github.svg"
 
 function Footer() {
 
 const currentYear = new Date().getFullYear()
 
     return(
-        <div className="footer">
+        <div className={styles.footer}>
             <div className="footer-left">
-                <Link><img src="" alt="Link to Behance Profile" /></Link>
-                <Link><img src="" alt="Link to Github Profile" /></Link>
+                <Link><img src={Behance} alt="Link to Behance Profile" /></Link>
+                <Link><img src={Github} alt="Link to Github Profile" /></Link>
             </div>
             <div className="footer-right">
-                <p>&copy; {currentYear} </p>
+                <p className={styles.year}>&copy; {currentYear} </p>
             </div>
         </div>
     )
