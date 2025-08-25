@@ -1,0 +1,16 @@
+.heroTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: Left;
+}
+
+.heroTopLeft {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.heroTopRight {
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+}

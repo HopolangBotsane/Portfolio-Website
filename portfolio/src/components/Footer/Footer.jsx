@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import styles from "./Footer.module.css"
-import Behance from "../../assets/Behance.svg"
-import Github from"../../assets/Github.svg"
+import Behance from "../../assets/BehanceImg.svg"
+import Github from"../../assets/GithubImg.svg"
 
 function Footer() {
 
