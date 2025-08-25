@@ -1,0 +1,26 @@
+.contactSection {
+    display: flex;
+}
+
+.sectionHeading{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.formRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.formRightHeading {
+    font-size: 2.5rem;
+}
+
+.formRightParagraph {
+    font-size: 2rem;
+}
