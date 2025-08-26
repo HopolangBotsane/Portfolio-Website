@@ -24,15 +24,26 @@ function ContactSection() {
   }
 
   return (
-    <div className={styles.ContactSection}>
+    <div className={styles.contactSection}>
         <h1 className={styles.sectionHeading}>Get In Touch</h1>
-        <div className="form-left">
+
+        <div className={styles.c}></div>
+
+        <div className={styles.formLeft}>
             <form ref={form} onSubmit={sendEmail}>
+              
+              <div className="emailInputContainer">
                 <label>From:</label>
-                <input className="user-email-input" type="email" placeholder="Enter email address" name="user_email" />
+                <input className={styles.userEmailInput} type="email" placeholder="Enter email address" name="user_email" />
+              </div>
+
+              <div className="messageInputContainer">
                 <label>Message</label>
-                <textarea className="user-text-input" name="message" placeholder="Enter message"/>
-                <input className="send-btn" type="submit" value="Send" />
+                <textarea className={styles.userTextInput} name="message" placeholder="Enter message"/>
+              </div>
+
+              <input className={styles.sendBtn} type="submit" value="Send" />
+
             </form>
         </div>
 

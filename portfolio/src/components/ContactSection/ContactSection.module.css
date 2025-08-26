@@ -1,5 +1,6 @@
 .contactSection {
     display: flex;
+    color: #fff;
 }
 
 .sectionHeading{
@@ -7,10 +8,44 @@
     font-size: 2.5rem;
 }
 
+.formLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.userEmailInput {
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.125rem solid #fff;
+}
+
+.userTextInput {
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.125rem solid #fff;
+}
+
+.sendBtn {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    font-size: 1rem;
+    padding: 1.5rem 0.5rem 0.5rem 1.5rem ;
+
+}
+
 .formRight {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 0;
     color: #fff;
     margin: 0;
