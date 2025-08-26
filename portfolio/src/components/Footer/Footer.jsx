@@ -9,7 +9,7 @@ const currentYear = new Date().getFullYear()
 
     return(
         <div className={styles.footer}>
-            <div className="footer-left">
+            <div className={styles.footerLeft}>
                 <Link><img src={Behance} alt="Link to Behance Profile" /></Link>
                 <Link><img src={Github} alt="Link to Github Profile" /></Link>
             </div>
