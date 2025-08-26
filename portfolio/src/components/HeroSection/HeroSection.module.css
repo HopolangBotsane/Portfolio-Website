@@ -1,7 +1,14 @@
+.heroSection {
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+}
+
 .heroTop {
     display: flex;
     justify-content: space-between;
     align-items: Left;
+    gap: auto;
 }
 
 .heroTopLeft {
@@ -11,6 +18,19 @@
 
 .heroTopRight {
     display: flex;
-    align-items: right;
+    align-items: flex-end;
     flex-direction: column;
+    gap: 1.25rem;
+}
+
+.heroBottom {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.heroBottomTitle {
+    font-size: 1.25rem;
 }

@@ -7,7 +7,8 @@ import styles from "./HeroSection.module.css"
 function HeroSection() {
 
     return(
-        <div className="hero-section">
+        <div className={styles.heroSection}>
+
             <div className={styles.heroTop}>
                 <div className={styles.heroTopLeft}>
                     <p>Visual Story Telling Through Design & Code</p>
@@ -17,10 +18,12 @@ function HeroSection() {
                     <Link><img src={Behance} alt="Behance Logo" /></Link>
                 </div>
             </div>
-            <div className="hero-bottom">
-                <h4>UI/UX</h4>
-                <h4>Developer</h4>
+
+            <div className={styles.heroBottom}>
+                <h4 className={styles.heroBottomTitle}>UI/UX</h4>
+                <h4 className={styles.heroBottomTitle}>Developer</h4>
             </div>
+
         </div>
     )
 }
