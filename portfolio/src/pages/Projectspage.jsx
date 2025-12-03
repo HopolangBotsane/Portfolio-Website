@@ -1,7 +1,8 @@
+import { projectCardData } from "../components/Projects/CardData"
 
 const Projectspage = () => {
   return (
-    <div>Projectspage</div>
+    <div></div>
   )
 }
 

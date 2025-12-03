@@ -1,6 +1,29 @@
+import { Link } from "react-router-dom"
+import styles from "./Footer.module.css"
 
-export const Footer = () => {
+
+const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+      <Link>
+        <span className="brackets">[</span>
+        <span className="Link">Email</span>
+        <span className="brackets">]</span>
+      </Link>
+
+      <Link>
+        <span className="brackets">[</span>
+        <span className="Link">Github</span>
+        <span className="brackets">]</span>
+      </Link>
+
+      <Link>
+        <span className="brackets">[</span>
+        <span className="Link">Dribbble</span>
+        <span className="brackets">]</span>
+      </Link>
+    </div>
   )
 }
+
+export default Footer
