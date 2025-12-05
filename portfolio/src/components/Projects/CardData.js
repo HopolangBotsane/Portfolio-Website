@@ -1,10 +1,15 @@
+import placholder1 from "./Images/P1PH1.jpg"
+import placholder2 from "./Images/P1PH2.jpg"
+import placholder3 from "./Images/P1PH3.jpg"
+import placholder4 from "./Images/P1PH4.jpg"
+
 export const projectCardData = [
 
     {
         id: 1,
         projectName: "Project One",
         projectCategory: "Design & Code",
-        strobeImage: [],
+        strobeImage: [ placholder1, placholder2, placholder3, placholder4] ,
         children: [
             {
                 id: 101,

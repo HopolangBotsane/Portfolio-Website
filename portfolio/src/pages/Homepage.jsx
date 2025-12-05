@@ -1,5 +1,6 @@
 import Navigation from "../components/Navigation/Navigation"
 import Hero from "../components/Hero/Hero"
+import ProjectCard from "../components/Projects/ProjectCard"
 import Footer from "../components/Footer/Footer"
 
 const Homepage = () => {
@@ -10,7 +11,9 @@ const Homepage = () => {
         <Hero/>
       </div>
 
-      <div className="body"></div>
+      <div className="body">
+        <ProjectCard/>
+      </div>
       
       <Footer/>
     </div>
