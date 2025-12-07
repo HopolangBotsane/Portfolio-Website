@@ -1,4 +1,4 @@
-const HeroData = [
+export const HeroData = [
     {
         id: 1,
         tagline: "Crafting User Focused Digital Journeys",
