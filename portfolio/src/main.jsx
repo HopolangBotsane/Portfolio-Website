@@ -5,15 +5,15 @@ import Homepage from './pages/Homepage.jsx';
 import './index.css';
 import App from './App.jsx';
 
-const router = [
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Homepage/>
   }
-]
+])
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </StrictMode>,
 )
