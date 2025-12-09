@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import Dribbble from "./Icons/Dribbble.svg"
 import Github from "./Icons/Github.svg"
 
@@ -12,8 +14,12 @@ const Footer = () => {
       </div>
 
       <div className="right">
-        <img src={Dribbble} alt="Link to my Dribbble page" />
-        <img src={Github} alt="Link to my Github page" />
+        <Link to="">
+          <img src={Dribbble} alt="Link to my Dribbble page" />
+        </Link>
+        <Link to="/">
+          <img src={Github} alt="Link to my Github page" />
+        </Link>
       </div>
     </div>
   )

@@ -1,4 +1,4 @@
-import HeroData from "./HeroData"
+import { HeroData } from "./HeroData"
 
 const Hero = () => {
   return (
