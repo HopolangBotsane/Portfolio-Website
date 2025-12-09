@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import styles from "./Footer.module.css"
 import Dribbble from "./Icons/Dribbble.svg"
 import Github from "./Icons/Github.svg"
 
@@ -8,7 +8,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="Footer">
+    <div className={styles.footer}>
       <div className="left">
         <p>&copy; {currentYear} Thato Hopolang Botsane</p>
       </div>

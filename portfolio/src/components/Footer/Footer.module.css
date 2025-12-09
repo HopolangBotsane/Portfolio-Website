@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+img {
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+a:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+}

@@ -1,14 +1,10 @@
-import { HeroData } from "./HeroData"
+import styles from "./Hero.module.css";
 
 const Hero = () => {
   return (
-    <div>
-      {HeroData.map((data) => (
-        <div key={data.id} className="hero-content-container">
-          <h1>{data.tagline}</h1>
-          <p>{data.paragraph}</p>
-        </div>
-      ))}
+    <div className={styles.hero}>
+      <h1>Crafting User Focused Digital Journeys</h1>
+      <p> "As a dedicated UI/UX Design I craft journeys that guide users through what I hope to create, which is a seamless journey through the internet and as a Front-End Developer I pave the roads that users must traverse with a goal of one day becomes a part of the entire user journey."</p>
     </div>
   )
 }
