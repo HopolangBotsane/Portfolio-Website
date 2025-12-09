@@ -1,18 +1,29 @@
+import styles from "./Header.module.css"
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import Email from "./Icons/Email.svg";
 import HoverEmail from "./Icons/HoverEmail.svg";
 
 const Header = () => {
+  
+  const [isHovered, setIsHovered ] = useState(false)
+
   return (
-    <div>
+    <div className={styles.header}>
       <h5>Logo</h5>
-      <div className="pageLinks">
+
+      <div className={styles.pageLinks}>
         <Link to="">Projects</Link>
         <Link to="">Challenges</Link>
         <Link to="">Blog</Link>
       </div>
-      <Link>
-        <img src={Email} alt="Link to email" />
+
+      <Link
+        to=""
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
+        <img className={styles.emailIcon} src={ isHovered ? HoverEmail : Email } alt="Link to send email" />
       </Link>
     </div>
   )

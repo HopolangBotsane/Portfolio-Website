@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.pageLinks {
+    display: flex;
+    gap: 1.5rem;
+}
