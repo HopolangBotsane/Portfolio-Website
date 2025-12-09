@@ -1,4 +1,11 @@
 import styles from "./Hero.module.css";
+import CSSIcon from "./Icons/CSS.svg";
+import DribbbleIcon from "./Icons/Dribbble.svg";
+import FigmaIcon from "./Icons/Figma.svg";
+import GithubIcon from "./Icons/Github.svg";
+import IllustratorIcon from "./Icons/Illustrator.svg";
+import JavascriptIcon from "./Icons/Javascript.svg";
+import ReactIcon from "./Icons/React.svg";
 
 const Hero = () => {
   return (
