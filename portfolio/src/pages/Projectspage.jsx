@@ -1,7 +1,10 @@
+import Projects from "../components/Projects/Projects"
 
 const Projectspage = () => {
   return (
-    <div>Projectspage</div>
+    <div>
+      <Projects/>
+    </div>
   )
 }
 
