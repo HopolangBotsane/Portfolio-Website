@@ -6,6 +6,10 @@
     color: #fff;
 }
 
+p {
+    font-size: 0.75rem;
+}
+
 img {
     transition: transform 0.3s, opacity 0.3s;
 }

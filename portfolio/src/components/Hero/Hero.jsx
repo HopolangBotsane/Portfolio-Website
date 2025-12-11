@@ -1,17 +1,37 @@
 import styles from "./Hero.module.css";
 
 const Hero = () => {
-
   return (
     <div className={styles.hero}>
 
-      <div className={styles.heroContent}>
-        <h1>Crafting User Focused Digital Journeys</h1>
-        <p>
-          As a dedicated UI/UX Design I craft journeys that guide users through what I hope to create, which is a seamless journey through the internet and as a Front-End Developer I pave the roads that users must traverse with a goal of one day becomes a part of the entire user journey.
-        </p>
+    <div className={styles.heroLeft}>
+
+      <div className={styles.mySkills}>
+        <h3>
+          UI/UX Designer
+        </h3>
+        <h3>
+          Front-End Developer
+        </h3>
       </div>
-      
+
+      <h1>
+        Minimalism Is A Way of Life
+      </h1>
+      <p>
+        As a new student of minimalist, UI/UX designer and front-end developer, I am  dedicated to crafting clean, user-friendly digital experiences. My work emphasizes the beauty of minimalism, focusing on effective design strategies that resonate with users.
+      </p>
+
+      <div className={styles.navigation}>
+        <Link to="">Projects</Link>
+        <Link to="">Challenges</Link>
+        <Link to="">Blog</Link>
+      </div>
+
+    </div>
+
+    <div className={styles.heroRight}></div>
+    
     </div>
   );
 };
