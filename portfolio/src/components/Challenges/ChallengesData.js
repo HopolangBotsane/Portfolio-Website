@@ -1,7 +1,9 @@
+import placeholderOne from "./Images/placeholderOne.jpg"
+
 export const challengesData = [
     {
         id: 1,
-        img: "Screenshot",
+        img: placeholderOne,
         alt: "Image description",
         designIcon: "design Icon here",
         designIconAlt: "Design Icon alt",
@@ -12,7 +14,7 @@ export const challengesData = [
     },
     {
         id: 2,
-        img: "Screenshot",
+        img: placeholderOne,
         alt: "Image description",
         designIcon: "design Icon here",
         designIconAlt: "Design Icon alt",
@@ -23,7 +25,7 @@ export const challengesData = [
     },
     {
         id: 3,
-        img: "Screenshot",
+        img: placeholderOne,
         imgAlt: "Image description",
         designIcon: "design Icon here",
         designIconAlt: "Design Icon alt",
@@ -34,7 +36,7 @@ export const challengesData = [
     },
     {
         id: 4,
-        img: "Screenshot",
+        img: placeholderOne,
         alt: "Image description",
         designIcon: "design Icon here",
         designIconAlt: "Design Icon alt",
@@ -44,8 +46,8 @@ export const challengesData = [
         link: "the codepen repo",
     },
     {
-        id: 1,
-        img: "Screenshot",
+        id: 5,
+        img: placeholderOne,
         alt: "Image description",
         designIcon: "design Icon here",
         designIconAlt: "Design Icon alt",
@@ -55,8 +57,8 @@ export const challengesData = [
         link: "the codepen repo",
     },
     {
-        id: 2,
-        img: "Screenshot",
+        id: 6,
+        img: placeholderOne,
         alt: "Image description",
         designIcon: "design Icon here",
         designIconAlt: "Design Icon alt",
@@ -66,8 +68,8 @@ export const challengesData = [
         link: "the codepen repo",
     },
     {
-        id: 3,
-        img: "Screenshot",
+        id: 7,
+        img: placeholderOne,
         imgAlt: "Image description",
         designIcon: "design Icon here",
         designIconAlt: "Design Icon alt",
@@ -77,8 +79,8 @@ export const challengesData = [
         link: "the codepen repo",
     },
     {
-        id: 4,
-        img: "Screenshot",
+        id: 8,
+        img: placeholderOne,
         alt: "Image description",
         designIcon: "design Icon here",
         designIconAlt: "Design Icon alt",

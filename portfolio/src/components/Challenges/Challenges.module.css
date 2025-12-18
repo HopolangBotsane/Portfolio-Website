@@ -1,0 +1,45 @@
+.mainWrapper {
+    width: 100%; /* Take up available space */
+    max-width: 78rem; /* But stop at 78rem */
+    margin: 0 auto;
+    
+    /* FORCE CLIPPING: This is the strongest way to hide overflow */
+    overflow: hidden; 
+    clip-path: inset(0 0 0 0); 
+    
+    padding: 2rem 0;
+    position: relative;
+}
+
+.carousel {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    
+    /* Ensures the track isn't squished by the wrapper */
+    width: auto; 
+    min-width: 100%; 
+
+    /* Standard hide scrollbar logic */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    /* Exact dimensions from your design */
+    flex: 0 0 17.313rem; 
+    width: 17.313rem;
+    height: 24rem;
+    
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    scroll-snap-align: start;
+    flex-shrink: 0; /* Triple-protection against squishing */
+}
