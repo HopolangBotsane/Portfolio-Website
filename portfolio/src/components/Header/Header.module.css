@@ -7,11 +7,21 @@
 
 a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #000;
+    transition: letter-spacing 0.3s ease;
+}
+
+a:hover {
+    letter-spacing: 0.235em;
 }
 
 .pageLinks {
     display: flex;
     gap: 1.5rem;
+}
+
+.emailIcon {
+    width: 1.25rem;
+    height: 1.175rem;
 }

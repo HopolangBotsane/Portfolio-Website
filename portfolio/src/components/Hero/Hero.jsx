@@ -7,28 +7,31 @@ const Hero = () => {
 
     <div className={styles.heroLeft}>
 
-      <div className={styles.mySkills}>
-        <p>
-          UI/UX Designer
-        </p>
-        <p>
-          Front-End Developer
-        </p>
-      </div>
-
       <div className={styles.heroText}>
+
+        <div className={styles.mySkills}>
+          <p>
+            UI/UX Designer
+          </p>
+          <p>
+            Front-End Developer
+          </p>
+        </div>
+
         <h1>
           Minimalism Is A Way of Life
         </h1>
+
         <p>
           As a new student of minimalist, UI/UX designer and front-end developer, I am  dedicated to crafting clean, user-friendly digital experiences. My work emphasizes the beauty of minimalism, focusing on effective design strategies that resonate with users.
         </p>
+
       </div>
 
       <div className={styles.navigation}>
-        <Link className={styles.heroNavLinks} to="">Projects</Link>
-        <Link className={styles.heroNavLinks} to="">Challenges</Link>
-        <Link className={styles.heroNavLinks} to="">Blog</Link>
+        <Link className={styles.heroNavLinks} to="/projects">Projects</Link>
+        <Link className={styles.heroNavLinks} to="/challenges">Challenges</Link>
+        <Link className={styles.heroNavLinks} to="/blog">Blog</Link>
       </div>
 
     </div>

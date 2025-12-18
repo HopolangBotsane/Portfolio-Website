@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .hero {
     display: flex;
     color: #000;
@@ -9,9 +14,16 @@
 .heroLeft {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
     text-align: left;
+    justify-content: space-between;
     max-width: 35.125rem;
+    max-height: 22.25rem;
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
 }
 
 .mySkills {
@@ -20,7 +32,7 @@
 }
 
 .mySkills p {
-    font-size: 1;
+    font-size: 1rem;
 }
 
 .heroText h1 {
@@ -40,7 +52,7 @@
     width: 9.063rem;
     text-align: center;
     position: relative;
-    padding-bottom: 30px;
+    padding-bottom: 0.625rem;
     transition: letter-spacing 0.3s ease;
 }
 
@@ -52,7 +64,7 @@
     background-color: #000;
     width: 9.063rem;
     margin-top: 20px;
-    bottom: -0.8rem;
+    bottom: 0rem;
     opacity: 0.6;
     transition: opacity 0.3s ease;
 }

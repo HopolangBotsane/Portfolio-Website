@@ -9,15 +9,15 @@ const Footer = () => {
 
   return (
     <div className={styles.footer}>
-      <div className="left">
+      <div className={styles.left}>
         <p>&copy; {currentYear} Thato Hopolang Botsane</p>
       </div>
 
-      <div className="right">
+      <div className={styles.right}>
         <Link to="">
           <img src={Dribbble} alt="Link to my Dribbble page" />
         </Link>
-        <Link to="/">
+        <Link to="">
           <img src={Github} alt="Link to my Github page" />
         </Link>
       </div>
