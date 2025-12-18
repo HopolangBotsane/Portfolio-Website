@@ -1,23 +1,66 @@
 .hero {
-    color: #fff;
     display: flex;
+    color: #000;
+    max-width: 71.5rem;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    height: 100vh;
 }
 
-.heroContent {
+.heroLeft {
     display: flex;
     flex-direction: column;
-    gap: 0.2rem;
-    max-width: 71.5rem;
+    gap: 4rem;
+    text-align: left;
+    max-width: 35.125rem;
 }
 
-h1 {
-    font-size: clamp(1.5rem, 10vw, 2rem);
+.mySkills {
+    display: flex;
+    gap: 2.5rem;
 }
 
-p {
-    font-size: 1.5rem;
+.mySkills p {
+    font-size: 1rem;
+}
+
+.heroText h1 {
+    font-size: 3rem;
+}
+
+.heroText p {
+    font-size: 1rem;
+}
+
+.navigation {
+    display: flex;
+}
+
+.hero a {
+    color: #000;
+    width: 9.063rem;
+    text-align: center;
+    position: relative;
+    padding-bottom: 30px;
+    transition: letter-spacing 0.3s ease;
+}
+
+.hero a::after {
+    content: "";
+    position: absolute;
+    height: 0.125rem;
+    left: 0;
+    background-color: #000;
+    width: 9.063rem;
+    margin-top: 20px;
+    bottom: -0.8rem;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.hero a:hover {
+    letter-spacing: 0.235em;
+}
+
+.hero a:hover::after {
+    opacity: 1;
 }

@@ -1,4 +1,5 @@
 import styles from "./Hero.module.css";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -7,25 +8,27 @@ const Hero = () => {
     <div className={styles.heroLeft}>
 
       <div className={styles.mySkills}>
-        <h3>
+        <p>
           UI/UX Designer
-        </h3>
-        <h3>
+        </p>
+        <p>
           Front-End Developer
-        </h3>
+        </p>
       </div>
 
-      <h1>
-        Minimalism Is A Way of Life
-      </h1>
-      <p>
-        As a new student of minimalist, UI/UX designer and front-end developer, I am  dedicated to crafting clean, user-friendly digital experiences. My work emphasizes the beauty of minimalism, focusing on effective design strategies that resonate with users.
-      </p>
+      <div className={styles.heroText}>
+        <h1>
+          Minimalism Is A Way of Life
+        </h1>
+        <p>
+          As a new student of minimalist, UI/UX designer and front-end developer, I am  dedicated to crafting clean, user-friendly digital experiences. My work emphasizes the beauty of minimalism, focusing on effective design strategies that resonate with users.
+        </p>
+      </div>
 
       <div className={styles.navigation}>
-        <Link to="">Projects</Link>
-        <Link to="">Challenges</Link>
-        <Link to="">Blog</Link>
+        <Link className={styles.heroNavLinks} to="">Projects</Link>
+        <Link className={styles.heroNavLinks} to="">Challenges</Link>
+        <Link className={styles.heroNavLinks} to="">Blog</Link>
       </div>
 
     </div>
