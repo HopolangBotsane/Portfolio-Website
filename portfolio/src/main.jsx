@@ -3,9 +3,8 @@ import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 import Homepage from './pages/HomePage.jsx';
 import Projectspage from './pages/Projectspage.jsx';
-import ChallengesPage from './pages/ChallengesPage.jsx';
-import BlogPage from './pages/BlogPage.jsx';
-import ArticlePage from './pages/ArticlePage.jsx';
+import ProjectPage from './pages/ProjectPage.jsx';
+import ContactPage from './pages/ContactPage.jsx';
 import './index.css';
 // import App from './App.jsx';
 
@@ -19,16 +18,12 @@ const router = createBrowserRouter([
     element: <Projectspage/>
   },
   {
-    path: "challenges",
-    element: <ChallengesPage/>
+    path: "contact",
+    element: <ContactPage/>
   },
   {
-    path: "blog",
-    element: <BlogPage/>
-  },
-    {
-    path: "article",
-    element: <ArticlePage/>
+    path: "project",
+    element: <ProjectPage/>
   }
 ])
 
