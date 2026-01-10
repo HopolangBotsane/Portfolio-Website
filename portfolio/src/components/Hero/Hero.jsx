@@ -1,43 +1,10 @@
 import styles from "./Hero.module.css";
-import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
     <div className={styles.hero}>
-
-    <div className={styles.heroLeft}>
-
-      <div className={styles.heroText}>
-
-        <div className={styles.mySkills}>
-          <p>
-            UI/UX Designer
-          </p>
-          <p>
-            Front-End Developer
-          </p>
-        </div>
-
-        <h1>
-          Minimalism Is A Way of Life
-        </h1>
-
-        <p>
-          As a new student of minimalist, UI/UX designer and front-end developer, I am  dedicated to crafting clean, user-friendly digital experiences. My work emphasizes the beauty of minimalism, focusing on effective design strategies that resonate with users.
-        </p>
-
-      </div>
-
-      <div className={styles.navigation}>
-        <Link className={styles.heroNavLinks} to="/projects">Projects</Link>
-        <Link className={styles.heroNavLinks} to="/challenges">Challenges</Link>
-        <Link className={styles.heroNavLinks} to="/blog">Blog</Link>
-      </div>
-
-    </div>
-
-    <div className={styles.heroRight}></div>
-    
+      <h1>To Create With Abstraction</h1>
+      <h3>Both Code & Design</h3>
     </div>
   );
 };

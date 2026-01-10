@@ -1,11 +1,14 @@
-import Projects from "../components/Projects/Projects"
+import { useParams } from 'react-router-dom';
 
-const Projectspage = () => {
+const ProjectPage = () => {
+  const { id } = useParams();
+
   return (
     <div>
-      <Projects/>
-    </div>
-  )
-}
+      <h1>Details for: {id}</h1>
 
-export default Projectspage
+    </div>
+  );
+};
+
+export default ProjectPage

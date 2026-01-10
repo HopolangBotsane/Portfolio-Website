@@ -1,17 +1,8 @@
-.homepage {
+.homepage { 
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1rem 0.5rem;
-}
-
-.challengesPage {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 1rem 0.5rem;
 }
 
 /* End of Challenges Page styles */
