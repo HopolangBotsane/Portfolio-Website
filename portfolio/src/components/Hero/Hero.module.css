@@ -1,0 +1,55 @@
+a {
+    color: #fff;
+}
+
+.heroSection {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4.375rem;
+    padding-right: 4.375rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.heroLeft {
+    max-width: 48.688rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.portfolioName {font-size: 1.5rem;}
+
+.heroIntroText {font-size: 3rem;}
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1.5rem;
+  font-size: 1rem;
+}
+
+.portfolioBtns {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.hoverIcon { display: none; }
+
+.linkContainer:hover .defaultIcon { display: none; }
+
+.linkContainer:hover .hoverIcon { display: block; }
+
+.dribbbleLink { background-color: #E74D89;}
+
+.githubLink { background-color: #6E5494; }
+
+.dribbbleLink:hover { background-color: #B2215A; }
+
+.githubLink:hover { background-color: #4A43CB; }
