@@ -9,7 +9,7 @@ export const Footer = () => {
     <footer className={styles.footer}>
         <div className={styles.footerLeft}>
             <img src={copyright} alt="copyright icon"/>
-            <h6>Thato Hopolang Botsane</h6>
+            <p>Thato Hopolang Botsane</p>
         </div>
         <div className={styles.footerRight}>
             {currentYear}

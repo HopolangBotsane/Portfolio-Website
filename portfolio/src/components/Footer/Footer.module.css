@@ -9,4 +9,14 @@
 
 .footerLeft {
     display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footerLeft p {
+    font-size: 1.125rem;
+}
+
+.footerRight {
+    font-size: 1.125rem;
 }
