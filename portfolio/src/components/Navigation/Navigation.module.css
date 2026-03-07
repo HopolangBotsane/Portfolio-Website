@@ -1,0 +1,43 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4.375rem;
+    padding-right: 4.375rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.messageMe {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 0.5rem;
+}
+
+.iconContainer {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.defaultIcon, 
+.hoverIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.hoverIcon {
+  opacity: 0;
+}
+
+.messageMe:hover .defaultIcon {
+  opacity: 0;
+}
+
+.messageMe:hover .hoverIcon {
+  opacity: 1;
+}
