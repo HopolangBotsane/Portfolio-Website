@@ -3,8 +3,6 @@ import DefaultGithub from "./Icons/DefaultGithub.svg"
 import HoverGithub from "./Icons/HoverGithub.svg"
 import DefaultDribbble from "./Icons/DefaultDribbble.svg"
 import HoverDribbble from "./Icons/HoverDribbble.svg"
-import DefaultPlay from "./Icons/DefaultPlay.svg"
-import HoverPlay from "./Icons/HoverPlay.svg"
 
 export const Hero = () => {
   return (
