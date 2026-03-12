@@ -1,0 +1,21 @@
+[
+  {
+    "id": "01",
+    "projectName": "Project One",
+    "projectDescription": "",
+    "images": {
+      "thumbnail": "./assets/film-hero.jpg",
+      "gallery": ["./assets/shot1.jpg", "./assets/shot2.jpg"]
+    },
+    "duration": {
+      "design": "2 weeks",
+      "development": "4 weeks"
+    },
+    "technologies": ["React", "CSS Modules", "Node.js"],
+    "Links": {
+      "design": "https//:dribbble.com",
+      "code": "https//:github.com",
+      "liveView": "https//:versel.com"
+    }
+  }
+]
